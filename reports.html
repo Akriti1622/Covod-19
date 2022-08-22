@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reports</title>
+<style>
+body {
+  background-color:#73d3ff;
+}
+.bgimg {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading {
+   color: white;
+  background-color:tomato;
+  text-align:center;
+  font-size: 45px;
+}
+.ques {
+  text-decoration: underline;
+}
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+ width: 260px;
+ height: 40px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  color: #00ffff;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+  .slideshow{
+             width: 550px;
+             height: 350px;
+             left: 30%;
+             position: absolute;
+             tranform: translate(-50%, -50%);
+             background-image: url('14.jpg');
+             background-size:100% 100%;
+             box-shadow: 1px 2px 10px 10px black;
+             animation: slider 16s infinite linear;
+   }
+
+   @keyframes slider{
+	0%{ background-image: url('14.jpg'); }
+
+	25%{ background-image: url('15.png'); }
+
+	50%{ background-image: url('10.jpg'); }
+
+	75%{ background-image: url('20.jpg'); }
+  }
+
+</style>
+<body>
+<h1 class="heading"> COVID-19 Knowledge<h1>
+
+<div class="icon-bar">
+  <a href="home.html"><i class="fa fa-home">Origin</i></a> 
+  <a href="research.html"><i class="fa fa-search">Research</i></a> 
+  <a href="myths.html"><i class="fa fa-envelope">Myths</i></a> 
+  <a class="active" href="reports.html"><i class="fa fa-globe">Reports</i></a>
+  <a href="precautions.html"><i class="fa fa-trash">Precautions</i></a> 
+</div>
+<br>
+<br>
+<div class="slideshow">
+
+</div>
+<br>
+<br>
+</body>
+</html>
